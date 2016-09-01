@@ -1,0 +1,17 @@
+?一道我?的是：C
+You are training a classification model with logistic regression. Which of the following statements are true? Check all that apply.
+
+A：Adding many new features to the model helps "prevent" overfitting on the training set.
+B：Introducing regularization to the model always results in equal or better performance on the training set.
+C：Adding a new feature to the model always results in equal or better performance on the training set.
+D：Introducing regularization to the model always results in equal or better performance on examples not in the training set.
+
+
+
+答案: D
+Which of the following statements about regularization are true? Check all that apply.
+
+A：Because logistic regression outputs values 0?hθ(x)?1, it's range of output values can only be "shrunk" slightly by regularization anyway, so regularization is generally not helpful for it.
+B：Using a very large value of λ cannot hurt the performance of your hypothesis; the only reason we do not set λ to be too large is to avoid numerical problems.
+C：Using too large a value of λ can cause your hypothesis to overfit the data; this can be avoided by reducing λ.
+D：Consider a classification problem. Adding regularization may cause your classifier to incorrectly classify some training examples (which it had correctly classified when not using regularization, i.e. when λ=0).
